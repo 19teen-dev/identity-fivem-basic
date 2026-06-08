@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="grain"></div>
+    <div class="vignette"></div>
+
+    <div id="loading-view" class="view">
+        <div class="bg-glow"></div>
+        <div class="content">
+            <div class="mark">
+                <span class="mark-bracket">[</span>
+                <h1 class="mark-title">IDENTITY</h1>
+                <span class="mark-bracket">]</span>
+            </div>
+            <p class="mark-sub">ROLEPLAY&nbsp;&nbsp;PROJECT</p>
+
+            <div class="loader-block">
+                <div class="bar-track">
+                    <div class="bar-fill" id="progress-bar"></div>
+                </div>
+                <p class="status" id="status-text">ИНИЦИАЛИЗАЦИЯ</p>
+            </div>
+        </div>
+        <div class="corner corner-tl"></div>
+        <div class="corner corner-tr"></div>
+        <div class="corner corner-bl"></div>
+        <div class="corner corner-br"></div>
+    </div>
+
+    <div id="enter-view" class="view hidden">
+        <div class="bg-glow"></div>
+        <div class="content enter-content">
+            <div class="mark">
+                <span class="mark-bracket">[</span>
+                <h1 class="mark-title big">IDENTITY</h1>
+                <span class="mark-bracket">]</span>
+            </div>
+            <p class="mark-sub big-sub">ROLEPLAY&nbsp;&nbsp;PROJECT</p>
+
+            <div class="enter-prompt">
+                <div class="enter-divider"></div>
+                <div class="keys">
+                    <div class="key">
+                        <svg viewBox="0 0 34 46" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17 3 A14 14 0 0 0 3 17 L3 15 L17 15 Z" fill="currentColor" opacity="0.9"/>
+                            <rect x="3" y="2" width="28" height="42" rx="14" fill="none" stroke="currentColor" stroke-width="1.6"/>
+                            <path d="M17 3 L17 15" stroke="currentColor" stroke-width="1.6"/>
+                            <path d="M3 15 L31 15" stroke="currentColor" stroke-width="1.6"/>
+                        </svg>
+                        <span>ЛКМ</span>
+                    </div>
+                </div>
+                <p class="enter-text">кликните для входа</p>
+                <div class="enter-divider"></div>
+            </div>
+        </div>
+        <div class="corner corner-tl"></div>
+        <div class="corner corner-tr"></div>
+        <div class="corner corner-bl"></div>
+        <div class="corner corner-br"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
